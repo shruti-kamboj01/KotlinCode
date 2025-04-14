@@ -1,6 +1,6 @@
-
+package Basics
 //function return type is Int, return int value
-fun multiply(a: Int, b: Int): Int {
+fun multiply(a: Int=1, b: Int): Int {// a has a default value as 1
     return a*b
 }
 
@@ -21,7 +21,7 @@ fun divide(a: Int, b: Int) = a/b
 
 
 fun main() {
-    println(multiply(4,5))
+    println(multiply(b = 4, a = 5)) // named arguments
     println(divide(5,6))
     add(3,4)
 }

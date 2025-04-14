@@ -1,0 +1,4 @@
+package Opps
+
+class GettersNSetters {
+}

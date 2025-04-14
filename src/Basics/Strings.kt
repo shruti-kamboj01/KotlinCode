@@ -1,3 +1,5 @@
+package Basics
+
 fun main() {
     val name:String = "Shruti"
     println(name[0])
